@@ -17,7 +17,10 @@ pd.options.display.float_format = '{:.0f}'.format
 
 @st.cache
 def load_data():
-    df = pd.read_csv('data/data.csv', engine='c')
+    df = pd.DataFrame()
+    for filename in ['data/data01.csv', 'data/data02.csv', 'data/data03.csv']:
+        temp = pd.read_csv(filename, engine='c')
+        df = pd.concat([df, temp])
     return df
 
 
