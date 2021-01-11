@@ -3,7 +3,7 @@
 ![Python 3.8](https://img.shields.io/badge/Python-3.8-brightgreen.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-Library-orange.svg)<br>
 
 ## Description
-• This is my personal dashboard app that aims to provide an intuitive view of real estate transaction prices in Japan from 2005 to 2019. You can also see the price trends under some conditions to determine if a price of a particular house is reasonable or not.<br>
+• This is my personal dashboard app that aims to provide an intuitive view of real estate transaction prices in Japan from 2005 to 2019. It can also visualize price trends under some conditions and suggest if a price of a particular house is reasonable or not.<br>
 
 • Built with Streamlit which is a great open-source framework that enable data scientists to create beautiful dashboards in **pure Python**. <br>
 
